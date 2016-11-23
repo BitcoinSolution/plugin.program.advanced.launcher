@@ -1,4 +1,4 @@
-﻿"""
+"""
     Plugin for Launching programs
 """
 
@@ -8,14 +8,13 @@ import sys
 import os
 
 # plugin constants
-__plugin__ = "Advanced Launcher"
-__author__ = "Angelscry"
-__url__ = "http://sourceforge.net/projects/advlauncher/"
-__git_url__ = "http://sourceforge.net/p/advlauncher/git/?source=navbar"
-__credits__ = "Leo212 CinPoU, JustSomeUser, Zerqent, Zosky, Atsumori"
-__version__ = "1.13.1"
+__plugin__ = "X-Gaming Addon"
+__author__ = "Xeno-Gaming"
+__url__ = "https://github.com/BitcoinSolution/plugin.program.advanced.launcher"
+__git_url__ = "https://github.com/BitcoinSolution/plugin.program.advanced.launcher"
+__credits__ = "Xeno-Gaming"
+__version__ = "1.0.1"
 
 if ( __name__ == "__main__" ):
     import resources.lib.launcher_plugin as plugin
     plugin.Main()
-
