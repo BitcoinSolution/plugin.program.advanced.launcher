@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.advanced.launcher" name="Advanced Launcher" version="1.13.1" provider-name="Angelscry">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.xcloud" name="X-Cloud Dev" version="2.6.1" provider-name="Xeno-Gaming">
     <requires>
-        <import addon="xbmc.python" version="2.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" version="2.0.9"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -9,14 +9,15 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <disclaimer>For XBMC Frodo / Eden / Dharma</disclaimer>
-        <summary lang="de">Beliebige Anwendungen aus XBMC starten.</summary>
-        <summary lang="en">Start any applications from XBMC.</summary>
-        <summary lang="fr">Lancer n'importer quelle application depuis XBMC.</summary>
-        <summary lang="fi">Käynnistää sovelluksia XBMC:stä</summary>
-        <description lang="de">Advanced Launcher erlaubt das Starten beliebiger Linux, Windows und OS X Anwendungen (mit oder ohne Kommandozeile) direkt aus der XBMC Oberfläche. Advanced Launcher erlaubt weiterhin das Editieren, Herunterladen und Verwalten der Metadaten (Informationen und Bilder) für diese Anwendungen aus dem Internet.</description>
-        <description lang="en">Advanced Launcher allows you to start any Linux, Windows and OS X applications (with command line support or not) directly from the XBMC GUI. Advanced Launcher also give you the possibility to edit, download (from Internet resources) and manage all the meta-data (informations and images) related to these applications.</description>
-        <description lang="fr">Advanced Launcher permet de lancer toutes les applications Linux, Windows and OS X (avec support des lignes de commandes ou non) directement depuis l'interface d'XBMC. Advanced Launcher offre également la possibilité de modifier, télécharger (depuis les ressoures web) et de gérer toues les meta-donées (informations et images) relatives à ces applications.</description>
-        <description lang="fi">Advanced Launcherilla voit käynnistää XBMC:n käyttöliittymästä mitä tahansa sovelluksia. Käynnistettävistä sovelluksista voi hakea tietoja ja kuvia Internet-tietokannoista.</description>
+        <disclaimer>For X-Cloud</disclaimer>
+        <summary lang="de">Beliebige Anwendungen aus X-Cloud starten.</summary>
+        <summary lang="en">Start any applications from X-Cloud.</summary>
+        <summary lang="fr">Lancer n'importer quelle application depuis X-Cloud.</summary>
+        <summary lang="fi">Käynnistää sovelluksia X-Cloud:stä</summary>
+        <description lang="de">X-Cloud Dev erlaubt das Starten beliebiger Linux, Windows und OS X Anwendungen (mit oder ohne Kommandozeile) direkt aus der X-Cloud Oberfläche. X-Cloud Dev erlaubt weiterhin das Editieren, Herunterladen und Verwalten der Metadaten (Informationen und Bilder) für diese Anwendungen aus dem Internet.</description>
+        <description lang="en">X-Cloud Dev allows you to start any Linux, Windows and OS X applications (with command line support or not) directly from the X-Cloud GUI. X-Cloud Dev also give you the possibility to edit, download (from Internet resources) and manage all the meta-data (informations and images) related to these applications.</description>
+	<description lang="ru">X-Cloud Dev позволяет запускать любые приложения Linux, Windows и OS X (с поддержкой командной строки или нет) непосредственно из Коди GUI. X-Cloud Dev также даст вам возможность редактировать, загружать (из интернет-ресурсов) и управлять всеми мета-данными (информация и изображения), связанными с этими приложениями.</description>
+        <description lang="fr">X-Cloud Dev permet de lancer toutes les applications Linux, Windows and OS X (avec support des lignes de commandes ou non) directement depuis l'interface de X-Cloud. X-Cloud Dev offre également la possibilité de modifier, télécharger (depuis les ressoures web) et de gérer toues les meta-donées (informations et images) relatives à ces applications.</description>
+        <description lang="fi">X-Cloud Devilla voit käynnistää X-Cloud:n käyttöliittymästä mitä tahansa sovelluksia. Käynnistettävistä sovelluksista voi hakea tietoja ja kuvia Internet-tietokannoista.</description>
     </extension>
 </addon>
